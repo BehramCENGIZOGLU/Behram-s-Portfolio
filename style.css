@@ -1,0 +1,191 @@
+body
+{
+    background-color: rgb(33,37,41);
+}
+#header
+{
+    height: 5vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+}
+#header ul li a
+{
+    color : rgb(0,173,181);
+}
+#myInformation
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.grid-container
+{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(7,1fr);
+}
+.grid-container-header-h1
+{
+    display: grid;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.grid-container-header-h2
+{
+    display: grid;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.grid-container-header-h1 > h1
+{
+    font-size: 5.5rem;
+    font-weight: bold;
+    color: rgb(98,210,162);
+}
+.grid-container-header-h2 > h2
+{
+    font-size: 4.2rem;
+    font-weight: bold;
+    color: rgba(173,181,189,0.75);
+}
+.grid-container-header-image
+{
+    grid-row: 2/4;
+    grid-column: 5/8;
+}
+.grid-container-header-image >img
+{
+    max-width: 500px;
+}
+.informationImage
+{
+    grid-row: 5/6;
+    grid-column: 4/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.informationImage > img
+{
+    max-width: 130px;
+    border-radius: 50%;
+}
+.informationHeader
+{
+    grid-row: 6/7;
+    grid-column: 3/6;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.informationHeader > h2
+{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(98,210,162);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.informationBody
+{
+    display: grid;
+    grid-row: 7/8;
+    grid-column: 2/7;
+}
+.informationBody h3
+{
+    font-size: 1.5rem;
+    color: rgba(173,181,189,0.75);
+}
+#skills > .container > h2
+{
+    margin : 30px 0;
+    margin-right: 100px;
+    color : rgb(0,173,181);
+    font-size: 3.5rem;
+}
+.skills-container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 2rem;
+}
+.skills-content
+{
+    flex: 1;
+    color: rgba(173,181,189,0.75);
+    margin-left: 1rem;
+}
+.skills-content > h3
+{
+    font-size: 2.5rem;
+}
+.skills-content > ul
+{
+    width: 70%;
+}
+.skills-content > ul > li
+{
+    margin-left: 0.5rem;
+}
+.skills-content > .list-group > .list-group-item
+{
+    color: rgba(173,181,189,0.75);
+    background-color: rgb(33,37,41);
+    font-size: 1rem;
+}
+#projects > #custom-cards > h2
+{
+    color: rgb(0,173,181);
+    font-size: 3.5rem;
+}
+.projects-card 
+{
+    height: 30vh;
+    border: 2px solid whitesmoke;
+}
+.projects-card h3
+{
+    color: rgb(98,210,162);
+    font-size: 2.5rem;
+}
+.projects-card h4
+{
+    color: rgba(173,181,189,0.75);
+    font-size: 1.3rem;
+}
+.projects-btn
+{
+    color: rgb(98,210,162);
+    border: 2px solid rgb(0,173,181);
+    font-size: 1.5rem;
+    width: 43%;
+}
+#contanct > div > h2
+{
+    color: rgb(0,173,181);
+    font-size: 3.5rem;
+}
+.contactInformationH2
+{
+    color : rgb(98,210,162);
+    font-size: 2rem;
+}
+.contactInformationP
+{
+    color : rgba(173,181,189,0.75);
+    font-size: 1.5rem;
+}
